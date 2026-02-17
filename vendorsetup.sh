@@ -48,6 +48,13 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		exit 1
 	fi
 
+
+     export  OF_SCREEN_H=2880
+     export  OF_STATUS_H=100
+     export  OF_STATUS_INDENT_LEFT=56
+     export  OF_STATUS_INDENT_RIGHT=56
+ 
+
         export FOX_VANILLA_BUILD=1
 	export FOX_VIRTUAL_AB_DEVICE=1
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
