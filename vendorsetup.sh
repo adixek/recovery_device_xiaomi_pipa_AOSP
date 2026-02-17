@@ -51,8 +51,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
      export  OF_SCREEN_H=2880
      export  OF_STATUS_H=100
-     export  OF_STATUS_INDENT_LEFT=56
-     export  OF_STATUS_INDENT_RIGHT=56
+   
  
 
         export FOX_VANILLA_BUILD=1
