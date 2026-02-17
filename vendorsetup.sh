@@ -49,10 +49,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	fi
 
 
-     export  OF_SCREEN_H=2880
-     export  OF_STATUS_H=100
-   
- 
+     export OF_SCREEN_H=2880
 
         export FOX_VANILLA_BUILD=1
 	export FOX_VIRTUAL_AB_DEVICE=1
