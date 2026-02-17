@@ -36,7 +36,13 @@
 /boot_b                emmc    /dev/block/bootdevice/by-name/boot_b                               flags=backup=1;display="Boot_Linux";flashimg=1
 /dtbo_b                emmc    /dev/block/bootdevice/by-name/dtbo_b                               flags=display="Dtbo_Linux_Nuke";wipeingui=1
 
+# Addons
+/boot_a                emmc    /dev/block/bootdevice/by-name/boot_b                               flags=backup=1;display="Boot_Linux";flashimg=1
+/dtbo_a                emmc    /dev/block/bootdevice/by-name/dtbo_b                               flags=display="Dtbo_Linux_Nuke";wipeingui=1
+/vendor_boot_a           emmc    /dev/block/bootdevice/by-name/vendor_boot                          flags=backup=1;display="vendor_boot";slotselect;flashimg=1
+/vendor_boot_b           emmc    /dev/block/bootdevice/by-name/vendor_boot                          flags=backup=1;display="vendor_boot";slotselect;flashimg=1
+
 # Fedora atomic leftovers
-/cust                  ext4    /dev/block/bootdevice/by-name/cust                                 flags=display="Cust";flashimg=1;wipeingui=
-/rawdump               emmc    /dev/block/bootdevice/by-name/rawdump                              flags=display="Rawdump";flashing=1;wipeingui=1
+/cust                  ext4    /dev/block/bootdevice/by-name/cust                                 flags=display="Cust";flashimg=1;wipeingui=1
+/rawdump               emmc    /dev/block/bootdevice/by-name/rawdump                              flags=display="Rawdump";flashimg=1;wipeingui=1
 
